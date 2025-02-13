@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  margin: 5% 0;
+  border-bottom: 1px solid;
+  box-shadow: 0px 22px 30px #ccc;
+}
+.App{
+  text-align: center;
+  height: 100vh;
+}
+.resultado{
+  height: 15%;
+  width: 15%;
+  background-color: rgba(240, 237, 237, 0.658);
+  justify-self: center;
+  align-content: center;
+  font-size: 30px;
+  margin-top: 15%;
+  border-radius: 12px;
+}
+.alterar{
+  width: 15%;
+  justify-self: center;
+}
+.alterar button{
+  width: 40%;
+  margin: 0 5%;
+  margin-top: 15%;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: none;
+}
